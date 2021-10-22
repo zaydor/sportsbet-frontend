@@ -1,0 +1,93 @@
+<nav class="navbar" role="navigation" aria-label="main navigation">
+    <div id="brand" class="navbar-brand">
+        <a class="navbar-item">
+            <img src="https://bulma.io/images/bulma-logo.png"
+                alt="Bulma: Free, open source, and modern CSS framework based on Flexbox" width="112" height="28">
+        </a>
+
+        <div id="hamburger-menu" class="dropdown is-right ml-auto">
+            <div class="dropdown-trigger">
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="dropdown-menu" id="dropdown-menu2" role="menu">
+                <div class="dropdown-content">
+                    <a href="#" class="dropdown-item" style="width: auto;" routerLink='scores'>
+                        <div class="is-vcentered" style="display: flex; align-content: center;">
+                            <span class="icon">
+                                <mat-icon aria-hidden="false" aria-label="Example home icon" style="font-size: 20px;">
+                                    sports_football</mat-icon>
+                            </span>
+                            <span>Scores</span>
+                        </div>
+                    </a>
+                    <hr class="dropdown-divider">
+                    <a href="#" class="dropdown-item" style="width: auto;" routerLink='odds'>
+                        <div class="is-vcentered" style="display: flex; align-content: center;">
+                            <span class="icon">
+                                <mat-icon aria-hidden="false" aria-label="Example home icon" style="font-size: 20px;">
+                                    casino</mat-icon>
+                            </span>
+                            <span>Odds</span>
+                        </div>
+                    </a>
+                    <hr class="dropdown-divider">
+                    <a href="#" class="dropdown-item is-align-self-auto is-vcentered" style="width: auto;"
+                        routerLink='news'>
+                        <div class="is-vcentered" style="display: flex; align-content: center;">
+                            <span class="icon">
+                                <mat-icon aria-hidden="false" aria-label="Example home icon" style="font-size: 20px;">
+                                    article</mat-icon>
+                            </span>
+                            <span>News</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="navbarBasic" class="navbar-menu">
+        <div class="navbar-start">
+            <!--a class="navbar-item is-expanded is-tab">test</a-->
+        </div>
+
+        <div class="columns is-vcentered m-0">
+            <div class="column is-4">
+                <a style="display: flex; align-content: center;" routerLink='scores'>
+                    <span class="icon">
+                        <mat-icon aria-hidden="false" aria-label="Example home icon" style="font-size: 20px;">
+                            sports_football</mat-icon>
+                    </span>
+                    <span>
+                        Scores
+                    </span>
+                </a>
+            </div>
+            <div class="column is-4">
+                <a style="display: flex; align-content: center;" routerLink='odds'>
+                    <span class="icon">
+                        <mat-icon aria-hidden="false" aria-label="Example home icon" style="font-size: 20px;">
+                            casino</mat-icon>
+                    </span>
+                    <span>Odds</span>
+                </a>
+            </div>
+            <div class="column is-4">
+                <a style="display: flex; align-content: center;" routerLink='news'>
+                    <span class="icon">
+                        <mat-icon aria-hidden="false" aria-label="Example home icon" style="font-size: 20px;">
+                            article</mat-icon>
+                    </span>
+                    <span class="is-vcentered">News</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="navbar-end">
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,24 @@
+<div class="is-size-1 has-text-centered mb-1 has-text-white">{{title}}</div>
+
+<div class="columns is-centered is-mobile mb-5">
+    <div class="column is-1" style="width: min-content;">
+        <button mat-icon-button class="has-background-primary" (click)="changeSport(this.activeSport, 0)">
+            <mat-icon id="football" style="color: black;">sports_football</mat-icon>
+        </button>
+    </div>
+    <div class="column is-1" style="width: min-content;">
+        <button mat-icon-button class="has-background-primary" (click)="changeSport(this.activeSport, 1)">
+            <mat-icon id="baseball" style="color: black;">sports_baseball</mat-icon>
+        </button>
+    </div>
+    <div class="column is-1" style="width: min-content;">
+        <button mat-icon-button class="has-background-primary" (click)="changeSport(this.activeSport, 2)">
+            <mat-icon id="basketball" style="color: black;">sports_basketball</mat-icon>
+        </button>
+    </div>
+    <div class="column is-1" style="width: min-content;">
+        <button mat-icon-button class="has-background-primary" (click)="changeSport(this.activeSport, 3)">
+            <mat-icon id="soccer" style="color: black;">sports_soccer</mat-icon>
+        </button>
+    </div>
+</div>

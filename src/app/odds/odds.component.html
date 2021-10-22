@@ -1,0 +1,10 @@
+<div>
+    <app-page-header title="Odds"></app-page-header>
+
+    <div class="columns is-multiline is-centered">
+        <div class="column is-5" *ngFor="let odd of oddsCard">
+            <app-oddscard [odds]="odd"></app-oddscard>
+        </div>
+    </div>
+
+</div>

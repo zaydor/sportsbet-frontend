@@ -1,0 +1,9 @@
+<div>
+    <app-page-header title="Scores"></app-page-header>
+
+    <div class="columns is-multiline is-centered">
+        <div class="column is-4" *ngFor="let scorecard of getCurrentSportScoreCards()">
+            <app-scorecard [scoreCardData]="scorecard"></app-scorecard>
+        </div>
+    </div>
+</div>
